@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hamro Destination</title>
+    <link rel="stylesheet" href="project.css">
+    <script>
+        // Smooth scrolling for internal links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+    </script>
+    
+</head>
+<body>
+    <header>
+        <div class="container">
+            <img src="logo.png" alt="Hamro Destination Logo" class="logo">
+            <h1>Hamro Destination</h1>
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#destinations">Destinations</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="home">
+        <div class="container">
+            <h2>Welcome to Nepal</h2>
+            <p>Explore the beauty of Nepal with Hamro Destination. Discover breathtaking landscapes, ancient temples, and vibrant cultures.</p>
+        </div>
+    </section>
+
+    <section id="destinations">
+        <div class="container">
+            <h2>Popular Destinations</h2>
+            <div class="destination-grid">
+                <div class="destination-item">
+                    <img src="kathmandu.jpg" alt="Kathmandu">
+                    <h3>Kathmandu</h3>
+                    <p>The capital city, known for its historic temples and vibrant culture.</p>
+                    <a href="kathmandu.html" class="explore-btn">Explore</a>
+                </div>
+                <div class="destination-item">
+                    <img src="pokhara.jpg" alt="Pokhara">
+                    <h3>Pokhara</h3>
+                    <p>A serene city with stunning lakes and views of the Annapurna range.</p>
+                    <a href="pokhara.html" class="explore-btn">Explore</a>
+                </div>
+                <div class="destination-item">
+                    <img src="chitwan.jpg" alt="Chitwan">
+                    <h3>Chitwan</h3>
+                    <p>Home to Chitwan National Park, famous for wildlife and jungle safaris.</p>
+                    <a href="chitwan.html" class="explore-btn">Explore</a>
+                </div>
+                <div class="destination-item">
+                    <img src="annapurna.jpg" alt="Annapurna Base Camp">
+                    <h3>Annapurna Base Camp</h3>
+                    <p>A popular trekking destination offering breathtaking views of the Annapurna massif.</p>
+                    <a href="annapurna.html" class="explore-btn">Explore</a>
+                </div>
+                <div class="destination-item">
+                    <img src="everest.jpg" alt="Mount Everest Base Camp">
+                    <h3>Mount Everest Base Camp</h3>
+                    <p>The starting point for climbers aiming to conquer the world's highest peak.</p>
+                    <a href="everest.html" class="explore-btn">Explore</a>
+                </div>
+                <div class="destination-item">
+                    <img src="lumbini.jpg" alt="Lumbini">
+                    <h3>Lumbini</h3>
+                    <p>The birthplace of Lord Buddha, a sacred pilgrimage site for Buddhists.</p>
+                    <a href="lumbini.html" class="explore-btn">Explore</a>
+                </div>
+                <div class="destination-item">
+                    <img src="bhaktapur.jpg" alt="Bhaktapur">
+                    <h3>Bhaktapur</h3>
+                    <p>A well-preserved medieval city known for its rich culture, temples, and craftsmanship.</p>
+                    <a href="bhaktapur.html" class="explore-btn">Explore</a>
+                </div>
+                <div class="destination-item">
+                    <img src="janakpur.jpg" alt="Janakpur">
+                    <h3>Janakpur</h3>
+                    <p>A historic city, home to the famous Janaki Temple, dedicated to Goddess Sita.</p>
+                    <a href="janakpur.html" class="explore-btn">Explore</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="about">
+        <div class="container">
+            <h2>About Hamro Destination</h2>
+            <p>Hamro Destination is your guide to exploring the most beautiful and culturally rich places in Nepal. Whether you're an adventure seeker or looking to experience tranquility, we have something for everyone.</p>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <p>Feel free to reach out for any inquiries or travel tips. We're here to help you plan your perfect trip to Nepal!</p>
+            <p>Email: info@hamrodestination.com</p>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Hamro Destination. All Rights Reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
